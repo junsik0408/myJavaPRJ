@@ -4,6 +4,6 @@ public class Code04_15 {
 
         System.out.println(str.indexOf("처음"));
         System.out.println(str.lastIndexOf("처음"));
-        System.out.println(str.indexOf("처음"));
+        System.out.println(str.indexOf("처음", 4));
     }
 }
