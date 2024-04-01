@@ -14,6 +14,5 @@ public class Code5_5 {
             System.out.println("홀수입니다.");
 
         S.close();
-
     }
 }

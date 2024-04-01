@@ -22,12 +22,13 @@ public class Code5_7 {
                     } else {
                         System.out.print("F");
 
-                        System.out.println(" 학점입니다.");
-                        s.close();
+
                     }
                 }
             }
         }
 
+        System.out.println(" 학점입니다.");
+        s.close();
     }
 }

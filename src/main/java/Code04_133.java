@@ -4,10 +4,12 @@ public class Code04_133 {
         String upper = "";
         String lower = "";
         String cutStr = "";
+        String allStr = "";
 
         upper = str.toUpperCase();
         lower = str.toUpperCase();
         cutStr = str.trim();
+        allStr = str.replaceAll(" ","");
 
         System.out.println("기본 문자열 ==> ["+ str + "]");
         System.out.println("대문자 ==> ["+ upper +"]");
