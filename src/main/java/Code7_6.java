@@ -1,7 +1,19 @@
 class Rabbit {
-    String shape; // 토끼모양
-    int xPos;
-    int yPos;
+    public String shape;// 토끼모양
+
+
+   private int xPos;
+    private int yPos;
+
+    Rabbit() {
+        shape = "토끼";
+    }
+
+    Rabbit(String value) {
+        shape = value;
+    }
+
+
 
     void  setPosition(int x, int y) {
         xPos = x;
