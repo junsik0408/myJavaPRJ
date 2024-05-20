@@ -9,7 +9,8 @@ class Rabbit5 {
 }
 
     class HouseRabbit3 extends Rabbit5 {
-        void move(int x, int y) {
+    @Override
+    void move(int x, int y) {
             this.xPos = x;
             this.yPos = y;
 
@@ -23,6 +24,7 @@ class Rabbit5 {
         @Override
         void move(int x, int y) {
             super.move(x, y);
+
         }
     }
 
