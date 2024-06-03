@@ -15,6 +15,11 @@ public class Code9_2 {
         System.out.print("숫자 : ");
         numAry[3] = s.nextInt();
 
+        for (int i = 0; i < 4; i++) {
+            hap+=numAry[i];
+
+        }
+
         hap = numAry[0] + numAry[1] + numAry[2] + numAry[3];
         System.out.println("합계 ==> " + hap);
 
