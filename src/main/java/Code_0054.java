@@ -15,3 +15,4 @@ public class Code_0054 {
             System.out.println();  // 한 행 출력 후 줄바꿈
         }
     }
+}
